@@ -1,0 +1,34 @@
+body {
+  background-color: aquamarine;
+}
+
+header {
+  margin: 5vh 0;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: line-through;
+}
+
+nav a {
+  border-right: 1px solid black;
+  padding: 0 10vw;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+nav {
+  justify-content: space-evenly;
+  display: flex;
+  background-color: palevioletred;
+  width: 80%;
+  margin: 0 auto;
+}
